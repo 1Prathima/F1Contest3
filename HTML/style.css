@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ruda', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: inline-block;
+    background-color: black;
+    height: 70px;
+}
+
+.navbar .title{
+    font-size: 20px;
+    color: white;
+    margin: 25px;
+    display: inline-block;
+}
+
+.navbar .nav-items{
+    display: inline;
+}
+
+.navbar .nav-items a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: auto 15px;
+}
+
+.navbar .social-icons{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    display: inline;
+}
+
+.navbar .social-icons img{
+    width: 3%;
+    margin: auto 8px;
+}
+
+body{
+    background-color: black;
+}
+
+.introduction{
+    height: 600px;
+}
+
+.introduction .heading{
+    color: white;
+    font-size: 65px;
+    width: 46%;
+    margin-left: 130px;
+    padding: 40px;
+    padding-bottom: 25px;
+}
+
+.introduction .para{
+    color: white;
+    font-size: 25px;
+    width: 37%;
+    margin-left: 130px;
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.aboutus{
+    height: 330px;
+    background-color: black;
+    color: white;
+}
+
+.aboutus h1{
+    text-align: center;
+    margin: 45px;
+}
+
+.aboutus .para{
+    width: 24%;
+    margin-left: 140px;
+}
+
+.aboutus .image{
+    display: inline-block;
+    margin-top: -168px;
+}
+
+.aboutus .image img{
+    width: 24%;
+    margin-right: 140px;
+    float: right;
+}
+
+.menu{
+    height: 900px;
+    background-color: black;
+    color: white;
+}
+
+.menu h1{
+    text-align: center;
+    margin: 45px;
+}
+
+.menu .para p{
+    color: white;
+    margin: auto 290px;color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 50px;
+}
+
+.box img{
+    display: flex;
+    width: 25%;
+    height: 150px;
+}
+
+.findus{
+    height: 500px;
+    background-color: black;
+}
+
+.findus h1{
+    text-align: center;
+    color: white;
+    margin: 25px;
+}
+
+.findus .para p{
+    color: white;
+    width: 25%;
+    padding: 0;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+
+.findus .image iframe{
+    float: right;
+    width: 30%;
+    height: 175px;
+    margin-right: 100px;
+    margin-top: -290px;
+}
+
+.findus .para img{
+    width: 32px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.footer{
+    display: inline-block;
+    justify-items: stretch;
+    height: 200px;
+    background-color: black;
+}
+
+.footer p{
+    color: white;
+}
+.mail img, .phone img{
+    width: 32px;
+    margin-left: 950px;
+}
+.mail p, .phone p{
+    margin-left: 1000px;
+
+}
+
+.waiter img{
+    width: 152px;
+    margin-left: 150px;
+}
